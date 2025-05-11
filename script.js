@@ -5,7 +5,7 @@ const changer = document.getElementById("name-changer");
 
 const names = [
     "Yukio Hikari~",
-    "LoliFE~",
+    "L✦liFE~",
     "岩食砂~",
     "The Madman Jester 🤡",
 ];
