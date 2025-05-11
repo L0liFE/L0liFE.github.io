@@ -29,17 +29,13 @@
     transform: scaleX(1);
 }
 
-.navbar-icon h1 {
+.navbar-title-wrapper {
     display: inline-flex;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    transition: color 0.2s ease;
 }
 
-.navbar-icon h1:hover {
-    color: var(--accent01);
-}
 
 .navbar-menu {
     position: absolute;
