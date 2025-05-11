@@ -1,0 +1,40 @@
+.hero-subtitle {
+    display: block;
+    animation: none;
+    white-space: normal;
+    padding-left: 0;
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    color: inherit;
+}
+
+.hero-intro {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: var(--text-dim);
+}
+
+.hero-header {
+    overflow: hidden;
+}
+
+.hero-button {
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-subtitle {
+        display: inline-block;
+        white-space: nowrap;
+        padding-left: 100%;
+        animation: scroll-marque 24s linear infinite;
+        text-align: left;
+        font-size: 1.25rem;
+    }
+}

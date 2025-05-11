@@ -1,0 +1,16 @@
+#about {
+    text-align: center;
+    color: var(--text);
+    background-color: var(--background02);
+    box-shadow: var(--background01) 3px 3px 6px 0px inset, var(--background01) -3px -3px 6px 1px inset;
+}
+
+.about-header {
+    margin-bottom: 3rem;
+}
+
+.about-intro {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--text-dim);
+}

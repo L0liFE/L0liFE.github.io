@@ -1,0 +1,26 @@
+#socials {
+    text-align: center;
+    color: var(--text);
+    background-color: var(--background02);
+    box-shadow: var(--background01) 3px 3px 6px 0px inset, var(--background01) -3px -3px 6px 1px inset;
+}
+
+.socials-header p {
+    font-size: 1.2rem;
+    color: var(--text-dim);
+    margin-bottom: 2rem;
+}
+
+.socials-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.socials-grid .button:hover {
+    transform: translateY(-3px);
+    background: var(--accent02);
+    box-shadow: 0 0 15px var(--accent02);
+}

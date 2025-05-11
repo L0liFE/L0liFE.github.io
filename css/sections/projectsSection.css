@@ -1,0 +1,25 @@
+#projects .section-content {
+    max-width: 1300px;
+}
+
+#projects .card {
+    max-width: 800px;
+}
+
+.projects-header {
+    text-align: center;
+}
+
+.projects-header p {
+    font-size: 1.2rem;
+    color: var(--text-dim);
+    margin-bottom: 2rem;
+}
+
+.card-top {
+    flex-grow: 1;
+}
+
+.card-bottom {
+    margin-top: 1rem;
+}
