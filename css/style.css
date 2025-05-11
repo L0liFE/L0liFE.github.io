@@ -22,17 +22,20 @@
 
 html {
     scroll-behavior: smooth;
+    color-scheme: only light;
 }
 
 
 body {
-    background-color: var(--background01);
+    background-color: var(--background01) !important;
+    color: var(--text) !important;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    color-scheme: only light;
 }
 
 section {
@@ -275,7 +278,8 @@ h6 {
     animation: glitchy-flicker 2s infinite, rainbow 1.5s linear infinite;
 }
 
-.nameChanger, #titleChanger {
+.nameChanger,
+#titleChanger {
     transition: opacity 0.5s ease;
 }
 

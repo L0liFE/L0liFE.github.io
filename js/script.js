@@ -1,3 +1,5 @@
+// Optional JS nuke — just to ensure no weird overrides!
+document.documentElement.style.colorScheme = 'only light';
 
 // 🎭 Fixed list of names~
 const names = [
