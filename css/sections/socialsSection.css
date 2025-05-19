@@ -5,6 +5,10 @@
     box-shadow: var(--background01) 3px 3px 6px 0px inset, var(--background01) -3px -3px 6px 1px inset;
 }
 
+#socials .section-content {
+    max-width: 900px;
+}
+
 .socials-header p {
     font-size: 1.2rem;
     color: var(--text-dim);
@@ -25,7 +29,9 @@
     border: 2px solid var(--accent01);
     border-radius: 8px;
     overflow: hidden;
-    margin: 0 0.05rem;
+    margin: 0 0.1rem;
+    padding: 1rem 0;
+    box-shadow: 0 0 5px var(--accent02);
 }
 
 .social-name {
@@ -39,4 +45,22 @@
     padding: 1rem;
     text-align: center;
     font-size: large;
+}
+
+.social-links {
+    color: var(--text);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0.5rem;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+    transition: all 0.3s ease;
+}
+
+.social-links:hover {
+    color: var(--accent01);
+    transform: scale(1.05);
+    text-shadow: 0 0 2px var(--accent02);
 }

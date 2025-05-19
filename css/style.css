@@ -251,27 +251,6 @@ h6 {
 
 
 
-/* Socials Links class elements styling */
-.social-links {
-    color: var(--accent02);
-    text-decoration: none;
-    font-weight: bold;
-    margin: 0 0.5rem;
-    text-align: center;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.3em;
-    transition: all 0.3s ease;
-}
-
-.social-links:hover {
-    color: var(--accent01);
-    transform: scale(1.05);
-    text-shadow: 0 0 5px var(--accent02);
-}
-
-
-
 /* Other aesthetic class elements styling */
 .highlight {
     animation: rainbow 1.5s linear infinite;
